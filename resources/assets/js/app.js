@@ -9,14 +9,27 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import Buefy from 'buefy'
+Vue.use(Buefy)
+
+
+import Vue from 'vue';
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons';
+import jQuery from 'jquery';
+// import App from './App';
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+// Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-const app = new Vue({
-    el: '#app'
+var app = new Vue({
+    el: '#app',
+    data:{
+
+    }
 });
