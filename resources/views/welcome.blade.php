@@ -12,42 +12,193 @@
       <!--styles-->
       <link href="{{ asset('css/app.css') }}" rel="stylesheet">
       <link href="{{ asset('css/styles.css')}}" rel="stylesheet">
-
+      <link rel="stylesheet" href="node_modules/uikit/dist/css/uikit.css">
       <link rel="stylesheet" href=""/>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
     </head> <!-- end of the header-->
 
-  <body>
-    <div class="">
-      <nav class="uk-navbar uk-navbar-transparent uk-navbar-container uk-margin">
-         <div class="uk-navbar-right">
-             <a class="uk-navbar-toggle" href="#">
-                 <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
-             </a>
-         </div>
-      </nav>  
-    </div>
+    <body>
+        <section class="hero is-transparent is-fullheight">
+          <div class="">
 
+            <nav class="navbar is-transparent is-fixed-top m-l-50 m-r-50">
 
+              <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                  <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+                </a>
+                <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma Templates</strong> by <a href="https://github.com/dansup">Daniel Supernault</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
-        </p>
-        <p>
-          <a class="icon" href="https://github.com/dansup/bulma-templates">
-            <i class="fa fa-github"></i>
-          </a>
-        </p>
-      </div>
-    </div>
-  </footer>
+              <div class="navbar-menu navbar-end">
+                <div class="navbar-burger burger navbar-item " data-target="navbarExampleTransparentExample">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+
+              {{-- <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div class="navbar-start">
+                  <a class="navbar-item is-tab" href="https://bulma.io/">
+                    Home
+                  </a>
+                  <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="/documentation/overview/start/">
+                      Docs
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                      <a class="navbar-item" href="/documentation/overview/start/">
+                        Overview
+                      </a>
+                      <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+                        Modifiers
+                      </a>
+                      <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                        Columns
+                      </a>
+                      <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+                        Layout
+                      </a>
+                      <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+                        Form
+                      </a>
+                      <hr class="navbar-divider">
+                      <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+                        Elements
+                      </a>
+                      <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+                        Components
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> --}}
+            </nav> <!--end navbar -->
+
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title m-t-100">
+                Full Height title
+              </h1>
+              <h2 class="subtitle">
+                Full Height subtitle
+              </h2>
+            </div>
+          </div>
+        </section> <!--end of land page -->
+        <div class="section">
+          <div class="columns">
+            <div class="column">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-left">
+                        <figure class="image is-48x48">
+                          <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="media-content">
+                        <p class="title is-4">John Smith</p>
+                        <p class="subtitle is-6">@johnsmith</p>
+                      </div>
+                    </div>
+
+                    <div class="content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                      <a href="#">#css</a> <a href="#">#responsive</a>
+                      <br>
+                      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                    </div>
+                  </div>
+                </div>
+            </div> <!--end of the column-->
+
+            <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br>
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br>
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
 </div>
+            </div>
+          </div>
+        </div>
 
-  <!--Scripts-->
+      <footer class="footer">
+        <div class="container">
+          <div class="content has-text-centered">
+            <p>
+              <strong>Bulma</strong> by <a href="#">Jeremy Thomas</a>. The source code is licensed
+              <a href="#">MIT</a>. The website content
+              is licensed <a href="#">CC BY NC SA 4.0</a>.
+            </p>
+          </div>
+        </div>
+      </footer><!--end of footer -->
+    </body>
 
-</body>
 </html>
