@@ -1,1 +1,112 @@
 
+.navbar-menu.is-active {
+    display:block !important;
+    background-color:whitesmoke;
+    -webkit-box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    padding: 0.5rem 0;
+}
+
+.navbar.is-fixed-top .navbar-menu, .navbar.is-fixed-top-touch .navbar-menu {
+    -webkit-overflow-scrolling: touch !important;
+    overflow: auto;
+    height:100%;
+    widows: 100%;
+    z-index: 999;
+
+    transition: all .3s ease;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+
+/* disable on mobile device */
+.is-fullscreen {
+  margin-left: 150px;
+  margin-top: 40px;
+  display:inline-block;
+}
+
+.is-fullscreen hr {
+	background: #FC645F;
+	width:40px;
+	height: 2px;
+	/* display: inline-block; */
+	/* float: right; */
+	/* margin-top: 130px; */
+	/* vertical-align: middle; */
+	/* margin-right: 0.5em; */
+
+}
+
+
+/*VERTICAL MENU*/
+navbar-item.vertical{
+  position:relative;
+  width:200px;
+}
+
+/* ALL UL */
+navbar-item.vertical ul{
+  list-style: none;
+  font-size: 20px;
+  line-height: 35px;
+}
+/* ALL LI */
+navbar-item.vertical li{
+  position:relative;
+}
+/* ALL A */
+navbar-item.vertical a{
+  display:block;
+  color:auto;
+  text-decoration:none;
+  background:none;
+  transition:0.2s;
+}
+/* ALL A HOVER */
+navbar-item.vertical li:hover > a{
+  background:none;
+}
+
+/* INNER UL HIDE */
+navbar-item.vertical ul ul{
+  position:absolute;
+  left:0%;
+  top:0;
+  width:100%;
+  visibility:hidden;
+  opacity:0;
+  transition: transform 0.2s;
+  transform: translateX(50px);
+}
+
+/* INNER UL SHOW */
+navbar-item.vertical li:hover > ul{
+  left:100%;
+  visibility:visible;
+  opacity:1;
+  transform: translateX(0px);
+  left:100%;
+}
+
+/* line grows vertically */
+  #cool
+  {
+  width:2px;
+  background-color:#431;
+  margin-bottom: 50%;
+  animation:grow 6s forwards;
+  position:absolute;
+  }
+
+  @keyframes grow
+  {
+    0%{
+       height: 0px;
+   }
+  100% {
+      height: 100px;
+  }
+  }
