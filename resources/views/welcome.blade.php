@@ -46,8 +46,6 @@
                         <ul>
                           <li><a href="">HOME</a></li>
                           <hr>
-                          <li><a href="">ABOUT</a></li>
-                          <hr>
                           <li><a href="">WHAT WE DO</a></li>
                           <hr>
                           <li><a href="#">OUR STORY +</a>
@@ -60,6 +58,7 @@
                                 <div class="column">
                                     <li><a href="#">BLOG</a></li>
                                     <li><a href="#">PROJECTS</a></li>
+                                    li><a href="#">PROJECTS</a></li>
                                 </div>
                               </div>
                             </ul>
