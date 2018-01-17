@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 .navbar-menu.is-active {
     display:block !important;
     background-color:whitesmoke;
@@ -179,3 +180,5 @@ navbar-item.vertical li:hover > ul{
 .icon.social.in i {
 	left:11px;
 }
+=======
+>>>>>>> parent of 7842b43... fixed fullscreen menu
