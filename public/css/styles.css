@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 .navbar-menu.is-active {
     display:block !important;
     background-color:whitesmoke;
@@ -25,7 +23,7 @@
 /* disable on mobile device */
 .is-fullscreen {
   margin-left: 150px;
-  margin-top: 40px;
+  margin-top: 80px;
   display:inline-block;
 }
 
@@ -37,14 +35,10 @@
 	/* float: right; */
 	/* margin-top: 130px; */
 	/* vertical-align: middle; */
-	/* margin-right: 0.5em; */
+	/* margin-right: 0.5em; */ */
 
 }
 
-.nav-items {
-  margin-top: 100px;
-
-}
 
 /*VERTICAL MENU*/
 navbar-item.vertical{
@@ -61,7 +55,6 @@ navbar-item.vertical ul{
 /* ALL LI */
 navbar-item.vertical li{
   position:relative;
-  padding:10px;
 }
 /* ALL A */
 navbar-item.vertical a{
@@ -117,11 +110,11 @@ navbar-item.vertical li:hover > ul{
   }
   }
 
-/* Social media icons */
-}
 
-.spadding {
+  .demopadding {
   margin:50px auto;
+  margin-left: 500px;
+  margin-top: 250px;
   width:140px;
   text-align:center;
 }
@@ -180,5 +173,3 @@ navbar-item.vertical li:hover > ul{
 .icon.social.in i {
 	left:11px;
 }
-=======
->>>>>>> parent of 7842b43... fixed fullscreen menu
