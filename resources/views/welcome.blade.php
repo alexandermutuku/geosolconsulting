@@ -18,7 +18,7 @@
     </head> <!-- end of the header-->
 
     <body>
-        <section class="hero is-transparent is-fullheight">
+        <section class="hero is-info is-transparent is-fullheight">
           <nav class="navbar is-transparent is-fixed-top m-l-50 m-t-10 m-r-50">
               <div class="">
                 <div class="navbar-brand">
@@ -100,11 +100,11 @@
                   page describe a product or service.
                 </h2>
                 <br>
-                <p class="has-text-centered">
+                <p class="has-text-centered has-text-weight-light">
                     <a href="" class="">DISCOVER MORE </a>
                 </p>
 
-                <p class="has-text-centered m-t-100">
+                <p class="has-text-centered has-text-weight-light m-t-100">
                     <a href="" class="">SCROLL TO CONTINUE </a>
                 </p>
               </div>
@@ -129,11 +129,11 @@
             <h2 class="subtitle is-4 m-t-20">
               Lorem ipsum dolor sit amet,
             </h2>
-            <p class="lead">
+            <p class="lead ">
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <br>
-            <p class="has-text-right">
+            <p class="has-text-right has-text-weight-light">
               <a  href="" class="is-medium is-info is-outlined">
                 DISCOVER MORE
               </a>
@@ -157,7 +157,7 @@
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <br>
-            <p class="has-text-right">
+            <p class="has-text-right has-text-weight-light">
               <a  href="" class="is-medium is-info is-outlined">
                 DISCOVER MORE
               </a>
@@ -194,15 +194,13 @@
       </div>
     </div>
 
-    <div class="cta">
-      <p class="has-text-centered">
-        <span class="tag is-primary">New</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-    </div> <!-- Our call to goes here-->
-
-
-
         <div class="section">
+          <div class="p-r-100 m-b-50">
+            <h1 class="has-text-right">
+              Latests News
+            </h1>
+
+          </div>
           <div class="columns">
             <div class="column">
                 <div class="card">
@@ -285,8 +283,25 @@
 
         <footer class="footer">
           <div class="container">
-            <div class="content has-text-centered">
-              <p>
+            <div class="columns">
+              <div class="column is-one-third has-text-left has-text-weight-light">
+                <ul>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">CONTACT</a></li>
+               </ul>
+              </div>
+              <div class="column">
+                <div class='icon social fb'><i class='fa fa-facebook'></i></div>
+                <div class='icon social fb'><i class='fa fa-google'></i></div>
+                <div class='icon social tw'><i class='fa fa-twitter'></i></div>
+                <div class='icon social in'><i class='fa fa-linkedin'></i></div>
+              </div>
+
+            </div>
+            <hr>
+            <div class="content has-text-left">
+              <p class="">
                 <strong>Bulma</strong> by <a href="#">Jeremy Thomas</a>. The source code is licensed
                 <a href="#">MIT</a>. The website content
                 is licensed <a href="#">CC BY NC SA 4.0</a>.

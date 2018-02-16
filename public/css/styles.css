@@ -1,3 +1,4 @@
+
 .navbar-menu.is-active {
     display:block !important;
     background-color:whitesmoke;
@@ -18,6 +19,16 @@
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: initial;
+}
+
+/* landing page background */
+
+.hero.is-info {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://unsplash.it/1200/900?random) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* disable on mobile device */
@@ -110,7 +121,6 @@ navbar-item.vertical li:hover > ul{
   }
   }
 
-
   .demopadding {
   margin:50px auto;
   margin-left: 500px;
@@ -133,6 +143,9 @@ navbar-item.vertical li:hover > ul{
 	-khtml-border-radius: 		20px 20px 20px 20px;
 	color:#FFFFFF;
 }
+
+
+
 .icon i {
 	font-size:20px;
 	position:absolute;
@@ -173,3 +186,8 @@ navbar-item.vertical li:hover > ul{
 .icon.social.in i {
 	left:11px;
 }
+
+a:hover, .uk-link:hover {
+    color: #0f6ecd;
+    text-decoration:none !important;
+} /* overides text decorations on links
