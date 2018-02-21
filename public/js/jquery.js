@@ -21,5 +21,4 @@ $navbarBurgers.forEach(function ($el) {
 	});
 });
 }
-
 });

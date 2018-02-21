@@ -1,19 +1,17 @@
-
 .navbar-menu.is-active {
     display:block !important;
-    background-color:whitesmoke;
+    background-color:white;
     -webkit-box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0;
 }
-
-.navbar.is-fixed-top .navbar-menu, .navbar.is-fixed-top-touch .navbar-menu {
+.navbar.is-fixed-top .navbar-menu {
     -webkit-overflow-scrolling: touch !important;
     overflow: auto;
     height:100%;
     widows: 100%;
     z-index: 999;
-
+    /* background-color: #1c1c1c; */
     transition: all .3s ease;
     transition-property: all;
     transition-duration: 0.3s;
@@ -23,12 +21,14 @@
 
 /* landing page background */
 
-.hero.is-info {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://unsplash.it/1200/900?random) no-repeat center center;
+.hero.is-bg {
+    /* background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://unsplash.it/1200/900?random) no-repeat center center; */
+    background-image: url("/img/drop.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 /* disable on mobile device */
@@ -38,8 +38,8 @@
   display:inline-block;
 }
 
+/* the colored horizontal line fullscreen*/
 .is-fullscreen hr {
-	background: #FC645F;
 	width:40px;
 	height: 2px;
 	/* display: inline-block; */
@@ -50,37 +50,49 @@
 
 }
 
+/* the colored horizontal line*/
+.hero-body hr {
+	width:40px;
+	height: 2px;
+	/* display:inline-flex; */
+	/* float: center; */
+	/* margin-top: 130px; */
+	/* vertical-align: middle; */
+	/* margin-right: 0.5em; */
 
-/*VERTICAL MENU*/
+}
+
+/* vertical menue */
 navbar-item.vertical{
   position:relative;
   width:200px;
 }
 
-/* ALL UL */
+/* all ul */
 navbar-item.vertical ul{
   list-style: none;
   font-size: 20px;
   line-height: 35px;
 }
-/* ALL LI */
+/* all li */
 navbar-item.vertical li{
   position:relative;
 }
-/* ALL A */
+/* all a */
 navbar-item.vertical a{
   display:block;
-  color:auto;
+  color:#1c1c1c;
   text-decoration:none;
   background:none;
   transition:0.2s;
+  text-align: left;
 }
-/* ALL A HOVER */
+/* all a hover */
 navbar-item.vertical li:hover > a{
   background:none;
 }
 
-/* INNER UL HIDE */
+/* inner ul hide */
 navbar-item.vertical ul ul{
   position:absolute;
   left:0%;
@@ -92,7 +104,7 @@ navbar-item.vertical ul ul{
   transform: translateX(50px);
 }
 
-/* INNER UL SHOW */
+/* inner ul show */
 navbar-item.vertical li:hover > ul{
   left:100%;
   visibility:visible;
@@ -145,7 +157,7 @@ navbar-item.vertical li:hover > ul{
 }
 
 
-
+/* social media icons */
 .icon i {
 	font-size:20px;
 	position:absolute;
@@ -153,7 +165,7 @@ navbar-item.vertical li:hover > ul{
 	top:10px;
 }
 .icon.social {
-	float:left;
+	float:center;
 	margin:0 5px 0 0;
 	cursor:pointer;
 	background:#6d6e71 ;
@@ -190,4 +202,14 @@ navbar-item.vertical li:hover > ul{
 a:hover, .uk-link:hover {
     color: #0f6ecd;
     text-decoration:none !important;
-} /* overides text decorations on links
+} /* overides text decorations on links*/
+
+.footer {
+    background-color: white !important;
+    padding: 3rem 1.5rem 6rem;
+}
+
+@media screen and (min-width: 0px)
+.navbar-burger {
+    /* display: none; */
+}
