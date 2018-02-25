@@ -6,18 +6,22 @@
  */
 
 require('./bootstrap');
-
 window.Vue = require('vue');
 
+
+
+import Vue from 'vue'
 import Buefy from 'buefy'
+import 'buefy/lib/buefy.css'
+
 Vue.use(Buefy)
 
-
-import Vue from 'vue';
 import UIkit from 'uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
 import jQuery from 'jquery';
 // import App from './App';
+
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

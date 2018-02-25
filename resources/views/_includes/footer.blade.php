@@ -1,3 +1,8 @@
+
+<!-- Scripts -->
+<script src="{{ asset('/js/app.js') }}"></script>
+
+
 <footer class="footer">
 	<div class="container">
 		<div class="columns">

@@ -16,12 +16,12 @@
       <link rel="stylesheet" href=""/>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head> <!-- end of the header-->
-    <body>
+    <body id="app">
     <section class="hero is-transparent is-fullheight">
 
       @include('_includes.nav.main') <!--includes the main navigation -->
 
-      <div class="hero-body">
+      <div class="hero-body" id='App'>
         <div class="container fullheight">
           <div class="container has-text-left">
               <div class="columns is-vcentered">
@@ -54,34 +54,110 @@
       </div> <!-- contents of landing page -->
     </section> <!--end of section-->
 
+
+
+
+
     <div class="hero-body">
-      <div class="container has-text-centered">
-        <div class="columns is-vcentered">
-          <div class="column is-5">
-            {{-- <figure class="image is-4by3">
-              <img src="http://placehold.it/800x600" alt="Description">
-            </figure> --}}
-          </div>
-          <div class="column is-6 is-offset-1 has-text-right p-r-100">
-            <h1 class="title is-2">
-              Design contact form elements
-            </h1>
-            <h2 class="subtitle is-4 m-t-20">
-              Lorem ipsum dolor sit amet,
-            </h2>
-            <p class="lead ">
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <br>
-            <p class="has-text-right has-text-weight-light">
-              <a  href="" class="is-medium is-info is-outlined">
-                DISCOVER MORE
-              </a>
-            </p>
-          </div>
-        </div>
+      <div class="container is-fullheight">
+          <form action="#" method="POST" role="form">
+            <div class="columns is-vcentered p-l-100 p-r-100">
+              <div class="column">
+                <div class="field">
+                  <label for="email" class="label has-text-weight-light">Email Address</label>
+                  <p class="control">
+                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}" size="20px">
+                  </p>
+                  @if ($errors->has('email'))
+                    <p class="help is-danger">{{$errors->first('email')}}</p>
+                  @endif
+                </div>
+              </div>
+              <div class="column">
+                <div class="field">
+                  <label for="email" class="label has-text-weight-light">Email Address</label>
+                  <p class="control">
+                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}">
+                  </p>
+                  @if ($errors->has('email'))
+                    <p class="help is-danger">{{$errors->first('email')}}</p>
+                  @endif
+                </div>
+              </div>
+              <div class="column">
+                <div class="field">
+                  <label for="email" class="label has-text-weight-light">Email Address</label>
+                  <p class="control">
+                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}">
+                  </p>
+                  @if ($errors->has('email'))
+                    <p class="help is-danger">{{$errors->first('email')}}</p>
+                  @endif
+                </div>
+              </div>
+            </div><!-- end of columns-->
+            <div class="columns is-vcentered p-l-100 p-r-100">
+              <div class="column">
+                <div class="field">
+                  <label for="email" class="label has-text-weight-light">Email Address</label>
+                  <p class="control">
+                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}" size="20px">
+                  </p>
+                  @if ($errors->has('email'))
+                    <p class="help is-danger">{{$errors->first('email')}}</p>
+                  @endif
+                </div>
+              </div>
+              <div class="column">
+                <div class="field">
+                  <label for="email" class="label has-text-weight-light">Email Address</label>
+                  <p class="control">
+                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}">
+                  </p>
+                  @if ($errors->has('email'))
+                    <p class="help is-danger">{{$errors->first('email')}}</p>
+                  @endif
+                </div>
+              </div>
+              <div class="column">
+                <div class="field">
+                  <label for="email" class="label has-text-weight-light">Email Address</label>
+                  <p class="control">
+                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}">
+                  </p>
+                  @if ($errors->has('email'))
+                    <p class="help is-danger">{{$errors->first('email')}}</p>
+                  @endif
+                </div>
+              </div>
+            </div><!-- end of columns-->
+
+            <div class="columns is-vcentered p-l-100 p-r-100">
+              <div class="column is-three-quarter">
+                <div class="field">
+                  <label for="email" class="label has-text-weight-light">Email Address</label>
+                  <p class="control">
+                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="textarea" name="message" id="message" placeholder="name@example.com" value="{{old('email')}}" size="is-large">
+                  </p>
+                  @if ($errors->has('email'))
+                    <p class="help is-danger">{{$errors->first('email')}}</p>
+                  @endif
+                </div>
+              </div>
+
+              <div class="column">
+                <b-field class="m-t-40">
+            <b-input type="textarea"
+                placeholder="Compose your masterpiece..." rows="20">
+            </b-input>
+          </b-field>
+
+              </div>
+            </div><!-- end of columns-->
+          </form> <!-- end of form -->
       </div>
-    </div><!--end of hero-body-->
+    </div>
+
 
 
     <div class="hero-body">

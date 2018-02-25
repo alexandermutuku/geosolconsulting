@@ -6,12 +6,11 @@
     padding: 0.5rem 0;
 }
 .navbar.is-fixed-top .navbar-menu {
-    -webkit-overflow-scrolling: touch !important;
-    overflow: auto;
+    /* -webkit-overflow-scrolling: touch !important; */
+    /* overflow:auto; */
     height:100%;
-    widows: 100%;
     z-index: 999;
-    /* background-color: #1c1c1c; */
+    background-color: whitesmoke;
     transition: all .3s ease;
     transition-property: all;
     transition-duration: 0.3s;
@@ -66,6 +65,7 @@
 navbar-item.vertical{
   position:relative;
   width:200px;
+
 }
 
 /* all ul */

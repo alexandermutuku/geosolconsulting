@@ -4,25 +4,20 @@ $easing: ease-in-out;
   box-sizing: border-box;
 }
 
-body {
-  padding-top: 100px;
-  text-align: center;
-  background: #F1F1F2;
-}
-
 [data-wipe] {
-  display: inline-block;
-  padding: 10px 16px;
+  display:inline-block;
+  padding: 8px 40px;
   text-decoration: none;
   position: relative;
   // border: 0.5px solid #445561;
-  border-radius: 2px;
+  border-radius: 1px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  text-align: left;
+  letter-spacing: 0.05em;
+  text-align: center;
   color: #445561;
   overflow: hidden;
-
+  font-size: 13px;
+  background: whitesmoke;//background color before hover
   &:before, &:after {
     content: attr(data-wipe);
     padding-top: inherit;
@@ -31,8 +26,8 @@ body {
     position: absolute;
     top: 0;
     overflow: hidden;
-    color: #F1F1F2;
-    background: #445561;
+    color: #F1F1F2; // text color after hover
+    background: #445561; //background color on hover
   }
 
   &:before {

@@ -16,7 +16,7 @@
       <link rel="stylesheet" href=""/>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head> <!-- end of the header-->
-    <body>
+    <body id='app'>
     <section class="hero is-transparent is-fullheight">
 
       @include('_includes.nav.main') <!--includes the main navigation -->
@@ -27,9 +27,14 @@
             <div class="column is-6 is-offset-2">
               <h1 class="title is-2">Locate and develop groundwater resources sustainbly</h1>
               <hr>
-              <h2 class="subtitle is-italic">Where do i drill?, How deep do I drill?, How much water can I abstract ? , What is it's quality? </h2>
+              <h2 class="subtitle">Where do i drill?, How deep do I drill?, How much water can I abstract ? ,
+                What is it's quality? </h2>
               <br>
-              <p class="has-text-left has-text-weight-light">DISCOVER MORE > </p>
+
+              <div data-wipe="DISCOVER MORE" class="has-text-weight-light">
+                <a href="#" class="btn">DISCOVER MORE</a>
+              </div>
+
             </div>
             {{-- <h1>Here Goes in the content of the Landing page</h1> --}}
           </div> <!--try using the hero page styles -->
@@ -51,15 +56,15 @@
             </h1>
             <hr>
             <h2 class="subtitle is-4 m-t-20 is-italic">
-              high level of specialisation
+              Highly specialised
             </h2>
             <p class="lead ">
               We are highly specialised, we talk, eat, drink and sleep groundwater resources. In short in we are strictly a technical consultancy specialised in groundwater consultancy. We have learned overtime that this specialization has allowed us to focus on “core issues” and clearly understand trends impacting groundwater resources and evolved service offerings that address the shifting needs.
             </p>
             <br>
 
-            <div data-wipe="Wipe Hover Effect">
-              <a href="#" class="btn">Wipe Hover Effect</a>
+            <div data-wipe="DISCOVER MORE">
+              <a href="#" class="btn">DISCOVER MORE</a>
             </div>
 
           </div>
@@ -72,21 +77,19 @@
         <div class="columns is-vcentered">
           <div class="column is-6 is-offset-1 has-text-left p-r-100">
             <h1 class="title is-2 p-t-20">
-              Superhero Scaffolding
+              A diverse journey
             </h1>
             <hr>
             <h2 class="subtitle is-4 m-t-20">
-              Lorem ipsum dolor sit amet,
+              Solving diverse challenges
             </h2>
             <p class="lead">
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <br>
-            <p class="has-text-right has-text-weight-light">
-              <a  href="" class="is-medium is-info is-outlined">
-                DISCOVER MORE
-              </a>
-            </p>
+            <div data-wipe="DISCOVER MORE">
+              <a href="#" class="btn">DISCOVER MORE</a>
+            </div>
           </div>
           <div class="column is-5">
             <div class="columns">
