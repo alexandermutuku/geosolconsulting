@@ -97,10 +97,10 @@
                 <figure class="image is-0.5by1">
                   <img src="http://placehold.it/800x600" alt="Description">
                 </figure>
-                <figure class="image is-0.5by0.5">
+                <figure class="image is-0.5by0.5 p-t-10">
                   <img src="http://placehold.it/800x600" alt="Description">
                 </figure>
-                <figure class="image is-2by3">
+                <figure class="image is-2by3 p-t-10">
                   <img src="http://placehold.it/800x600" alt="Description">
                 </figure>
               </div>
@@ -109,10 +109,10 @@
                 <figure class="image is-2by1">
                   <img src="http://placehold.it/800x600" alt="Description">
                 </figure>
-                <figure class="image is-2by3">
+                <figure class="image is-2by3 p-t-10">
                   <img src="http://placehold.it/800x600" alt="Description">
                 </figure>
-                <figure class="image is-2by3">
+                <figure class="image is-2by3 p-t-10">
                   <img src="http://placehold.it/800x600" alt="Description">
                 </figure>
               </div>

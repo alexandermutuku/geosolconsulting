@@ -17,16 +17,16 @@
               <li><a href="">OUR STORY +</a>
                 <hr>
                 <ul>
-                  <div class="">
-                    {{-- <div class="column">
-                      <div class="" id="cool"></div>
-                    </div> --}}
-                    <div class="">
-                        <li><a href="{{route('about')}}">ABOUT</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">PROJECTS</a></li>
-                    </div>
+                  <div class=""><!--start of line flow down-->
+                    <div class="" id="cool"></div>
+                  </div> <!--end of line flow down-->
+
+                  <div class="m-l-20">
+                      <li><a href="{{route('about')}}">ABOUT</a></li>
+                      <li><a href="{{route('blog')}}">BLOG</a></li>
+                      <li><a href=""{{route('blog')}}"">PROJECTS</a></li>
                   </div>
+
                 </ul>
               </li>
               <li><a href="{{route('contact')}}">CONTACT</a></li>
@@ -40,7 +40,21 @@
             <div class='icon social in'><i class='fa fa-linkedin'></i></div>
           </navbar-item>
     </div>
+
+    <div class="m-t-100 m-l-100 m-r-100">
+      <hr>
+      <div class="columns">
+        <div class="column has-text-weight-light">
+          <a href="{{route('contact')}}"> Contact</a>   |   <a href="">Careers</a>   |   <a href=""> Terms</a>
+        </div>
+        <div class="column has-text-right has-text-weight-light">
+          <p>Copyright © 2018 Geosol Consulting</p>
+        </div>
+      </div>
+    </div>
   </div>
+
+
 
   <div class="navbar-menu navbar-end">
       <div class="navbar-brand navbar-item m-l-100 m-t-10">
@@ -54,4 +68,5 @@
   				<span></span>
   		</div>
   </div><!--end burger visible on all devicec-->
+
 </nav> <!--end navbar -->

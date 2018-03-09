@@ -22,11 +22,11 @@
 		</div>
 				<hr>
 		<div class="columns is-size-6">
-			<div class="column has-text-left">
-				<p class="has-text-weight-light">Geosol Consulting Ltd</p>
+			<div class="column has-text-left has-text-weight-light">
+				<p class="">Geosol Consulting Ltd</p>
 			</div>
-			<div class="column has-text-right">
-				<p class=" has-text-right">Copyright 2018 Geosol Consulting Ltd</p>
+			<div class="column has-text-right has-text-weight-light">
+				<p>Copyright 2018 Geosol Consulting Ltd</p>
 			</div>
 		</div>
 	</div>

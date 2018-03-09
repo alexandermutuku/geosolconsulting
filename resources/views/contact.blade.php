@@ -59,99 +59,89 @@
 
 
     <div class="hero-body">
-      <div class="container is-fullheight">
+      <div class="container is-fullheight p-l-100 p-r-100">
           <form action="#" method="POST" role="form">
-            <div class="columns is-vcentered p-l-100 p-r-100">
+            <div class="columns">
               <div class="column">
-                <div class="field">
-                  <label for="email" class="label has-text-weight-light">Email Address</label>
-                  <p class="control">
-                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}" size="20px">
-                  </p>
-                  @if ($errors->has('email'))
-                    <p class="help is-danger">{{$errors->first('email')}}</p>
-                  @endif
+                <div class="field ">
+                  <label class="label is-vcentered has-text-weight-light is-small"> FIRST NAME</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="">
+                  </div>
                 </div>
               </div>
               <div class="column">
                 <div class="field">
-                  <label for="email" class="label has-text-weight-light">Email Address</label>
-                  <p class="control">
-                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}">
-                  </p>
-                  @if ($errors->has('email'))
-                    <p class="help is-danger">{{$errors->first('email')}}</p>
-                  @endif
+                  <label class="label is-vcentered has-text-weight-light is-small">LAST NAME</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="">
+                  </div>
                 </div>
+
               </div>
               <div class="column">
                 <div class="field">
-                  <label for="email" class="label has-text-weight-light">Email Address</label>
-                  <p class="control">
-                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}">
-                  </p>
-                  @if ($errors->has('email'))
-                    <p class="help is-danger">{{$errors->first('email')}}</p>
-                  @endif
+                  <label class="label has-text-weight-light is-small">EMAIL</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="">
+                  </div>
                 </div>
               </div>
             </div><!-- end of columns-->
-            <div class="columns is-vcentered p-l-100 p-r-100">
+            <div class="columns is-vcentered">
               <div class="column">
                 <div class="field">
-                  <label for="email" class="label has-text-weight-light">Email Address</label>
-                  <p class="control">
-                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}" size="20px">
-                  </p>
-                  @if ($errors->has('email'))
-                    <p class="help is-danger">{{$errors->first('email')}}</p>
-                  @endif
+                  <label class="label has-text-weight-light is-small">PHONE</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="">
+                  </div>
+                </div>
+
+              </div>
+              <div class="column">
+                <div class="field">
+                  <label class="label has-text-weight-light is-small">COMPANY</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="">
+                  </div>
                 </div>
               </div>
               <div class="column">
                 <div class="field">
-                  <label for="email" class="label has-text-weight-light">Email Address</label>
-                  <p class="control">
-                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}">
-                  </p>
-                  @if ($errors->has('email'))
-                    <p class="help is-danger">{{$errors->first('email')}}</p>
-                  @endif
-                </div>
-              </div>
-              <div class="column">
-                <div class="field">
-                  <label for="email" class="label has-text-weight-light">Email Address</label>
-                  <p class="control">
-                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" placeholder="name@example.com" value="{{old('email')}}">
-                  </p>
-                  @if ($errors->has('email'))
-                    <p class="help is-danger">{{$errors->first('email')}}</p>
-                  @endif
+                  <label class="label has-text-weight-light is-small">SUBJECT</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="">
+                  </div>
                 </div>
               </div>
             </div><!-- end of columns-->
 
-            <div class="columns is-vcentered p-l-100 p-r-100">
-              <div class="column is-three-quarter">
+            <div class="columns is-vcentered">
+              <div class="column is-two-third">
                 <div class="field">
-                  <label for="email" class="label has-text-weight-light">Email Address</label>
-                  <p class="control">
-                    <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="textarea" name="message" id="message" placeholder="name@example.com" value="{{old('email')}}" size="is-large">
-                  </p>
-                  @if ($errors->has('email'))
-                    <p class="help is-danger">{{$errors->first('email')}}</p>
-                  @endif
+                  <label class="label has-text-weight-light is-small">MESSAGE</label>
+                  <div class="control">
+                    <textarea class="textarea" placeholder=""></textarea>
+                  </div>
                 </div>
               </div>
 
-              <div class="column">
-                <b-field class="m-t-40">
-            <b-input type="textarea"
-                placeholder="Compose your masterpiece..." rows="20">
-            </b-input>
-          </b-field>
 
+              <div class="column is-one-third">
+                <div class="field">
+                  <div class="control">
+                    <label class="checkbox has-text-weight-light is-small">
+                      <input type="checkbox">
+                      I agree to the <a href="#">terms and conditions</a>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="field is-grouped">
+                  <div data-wipe="SUBMIT" class="has-text-weight-light">
+                    <a href="#" class="btn">SUBMIT</a>
+                  </div>
+                </div>
               </div>
             </div><!-- end of columns-->
           </form> <!-- end of form -->
@@ -161,11 +151,14 @@
 
 
     <div class="hero-body">
-      <div class="">
+
+      {{-- <div class="">
         <h1 class="has-text-centered">
           Social Media
         </h1>
-      </div>
+      </div> --}}
+
+
       <div class="columns has-text-centered has-text-small has-text-weight-light">
         <div class="column">
           <div class='icon social fb'><i class='fa fa-facebook'></i></div>
@@ -178,6 +171,7 @@
           <p class="">TWITTER</p>
           <p class="is-italic">@geosolconsulting</p>
         </div> <!--end of the column-->
+
         <div class="column">
           <div class='icon social in'><i class='fa fa-linkedin'></i></div>
           <p class="">LINKEDIN</p>
