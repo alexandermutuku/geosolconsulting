@@ -122,10 +122,11 @@
       </div>
     </div> <!--end of hero-body-->
 
-    <div class="hero-body">
+  <div class="hero-body">
+    <div class="container">
       <div class="p-r-100 m-b-50">
         <h1 class="has-text-left">
-          Latests News
+          LATEST NEWS
         </h1>
         <hr>
       </div>
@@ -208,7 +209,8 @@
           </div><!--end of the card-->
         </div><!--end of the column-->
       </div><!--end of the columns-->
-    </div> <!--end of section-->
+    </div><!--end of container-->
+  </div> <!--end of section-->
 
     @include('_includes.footer')<!--includes the footer -->
 

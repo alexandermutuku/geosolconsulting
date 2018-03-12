@@ -17,6 +17,7 @@
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head> <!-- end of the header-->
     <body>
+
     <section class="hero is-transparent is-fullheight">
 
       @include('_includes.nav.main') <!--includes the main navigation -->
@@ -74,17 +75,72 @@
           </div> <!--try using the hero page styles -->
         </div>
       </div> <!-- contents of landing page -->
-    </section> <!--end of section-->
+
+    <div class="container">
+      <div class="timeline">
+        <div class="callout left">
+          <div class="content">
+            <h2>2017</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="callout right">
+          <div class="content">
+            <h2>2016</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="callout left">
+          <div class="content">
+            <h2>2015</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="callout right">
+          <div class="content">
+            <h2>2012</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="callout left">
+          <div class="content">
+            <h2>2011</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="callout right">
+          <div class="content">
+            <h2>2007</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!--end of section-->
 
     <div class="hero-body">
-      <div class="container has-text-centered">
+      <div class="container">
         <div class="columns is-vcentered">
-          <div class="column is-5">
+          <div class="column is-6">
             {{-- <figure class="image is-4by3">
               <img src="http://placehold.it/800x600" alt="Description">
             </figure> --}}
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
           </div>
-          <div class="column is-6 is-offset-1 has-text-right p-r-100">
+          <div class="column is-6 has-text-right">
             <h1 class="title is-2">
               Our Approach
             </h1>

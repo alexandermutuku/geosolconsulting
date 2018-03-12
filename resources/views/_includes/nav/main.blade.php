@@ -26,7 +26,6 @@
                       <li><a href="{{route('blog')}}">BLOG</a></li>
                       <li><a href=""{{route('blog')}}"">PROJECTS</a></li>
                   </div>
-
                 </ul>
               </li>
               <li><a href="{{route('contact')}}">CONTACT</a></li>
