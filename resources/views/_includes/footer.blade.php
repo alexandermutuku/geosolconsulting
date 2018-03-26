@@ -15,7 +15,7 @@
 			</div>
 			<div class="column">
 				<div class='icon social fb'><i class='fa fa-facebook'></i></div>
-				<div class='icon social fb'><i class='fa fa-google'></i></div>
+				<div class='icon social fb'><i class='fa fa-instagram'></i></div>
 				<div class='icon social tw'><i class='fa fa-twitter'></i></div>
 				<div class='icon social in'><i class='fa fa-linkedin'></i></div>
 			</div>
@@ -23,10 +23,10 @@
 				<hr>
 		<div class="columns is-size-6">
 			<div class="column has-text-left has-text-weight-light">
-				<p class="">Geosol Consulting Ltd</p>
+				<p class="">Geosol Consulting</p>
 			</div>
 			<div class="column has-text-right has-text-weight-light">
-				<p>Copyright 2018 Geosol Consulting Ltd</p>
+				<p>Copyright 2018 Geosol Consulting</p>
 			</div>
 		</div>
 	</div>

@@ -159,7 +159,7 @@
       </div> --}}
 
 
-      <div class="columns has-text-centered has-text-small has-text-weight-light">
+      {{-- <div class="columns has-text-centered has-text-small has-text-weight-light">
         <div class="column">
           <div class='icon social fb'><i class='fa fa-facebook'></i></div>
           <p class="">FACEBOOK</p>
@@ -177,7 +177,7 @@
           <p class="">LINKEDIN</p>
           <p class="is-italic">@geosolconsulting</p>
         </div> <!--end of the column-->
-      </div><!--end of the columns-->
+      </div><!--end of the columns--> --}}
     </div> <!--end of section-->
 
     @include('_includes.footer')<!--includes the footer -->

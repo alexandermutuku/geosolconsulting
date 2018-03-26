@@ -10,16 +10,18 @@ window.Vue = require('vue');
 
 
 
-import Vue from 'vue'
-import Buefy from 'buefy'
-import 'buefy/lib/buefy.css'
+import Vue from 'vue';
+import Buefy from 'buefy';
+import 'buefy/lib/buefy.css';
 
-Vue.use(Buefy)
+Vue.use(Buefy);
 
-import UIkit from 'uikit';
-import Icons from 'uikit/dist/js/uikit-icons';
+// import UIkit from 'uikit';
+// import Icons from 'uikit/dist/js/uikit-icons';
 import jQuery from 'jquery';
 // import App from './App';
+
+
 
 
 

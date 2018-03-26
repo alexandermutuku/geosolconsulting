@@ -22,14 +22,13 @@
       @include('_includes.nav.main') <!--includes the main navigation -->
 
       <div class="hero-body">
-        <div class="container fullheight">
-          <div class="container has-text-left">
               <div class="columns is-vcentered">
-                <div class="column is-6 is-offset-1 has-text-left p-r-100">
-                  <h1 class="title is-2">
+                <div class="column is-6 is-offset-1 p-r-100">
+                  <h1 class="title is-2 has-text-left">
                     What we do
                   </h1>
-                  <div class="is-offset-3 p-l-50">
+                  <hr>
+                  <div class="is-offset-3 p-l-50 m-t-20">
                     <h2 class="subtitle is-4 ">
                       Lorem ipsum dolor sit amet,
                     </h2>
@@ -42,65 +41,70 @@
                   <br>
                   <p class="has-text-right has-text-weight-light"></p>
                 </div>
+
                 <div class="column is-5">
                   <div class="columns">
                     <div class="column">
                       <figure class="image is-0.5by1">
-                        <img src="http://placehold.it/800x600" alt="Description">
+                        <img src="/img/pic_2.png" alt="Description">
                       </figure>
                       <figure class="image is-0.5by0.5">
-                        <img src="http://placehold.it/800x600" alt="Description">
+                        <img src="/img/pic_2.png" alt="Description">
                       </figure>
                       <figure class="image is-2by3">
-                        <img src="http://placehold.it/800x600" alt="Description">
+                        <img src="/img/pic_3.png" alt="Description">
                       </figure>
                     </div>
 
                     <div class="column">
-                      <figure class="image is-2by1">
-                        <img src="http://placehold.it/800x600" alt="Description">
+                      <figure class="image is-0.5by1">
+                        <img src="/img/pic_1.png" alt="Description">
+                      </figure>
+                      <figure class="image is-0.5by0.5">
+                        <img src="/img/pic_2.png" alt="Description">
                       </figure>
                       <figure class="image is-2by3">
-                        <img src="http://placehold.it/800x600" alt="Description">
-                      </figure>
-                      <figure class="image is-2by3">
-                        <img src="http://placehold.it/800x600" alt="Description">
+                        <img src="/img/pic_2.png" alt="Description">
                       </figure>
                     </div>
                   </div>
                 </div>
               </div>
             {{-- <h1>Here Goes in the content of the Landing page</h1> --}}
-          </div> <!--try using the hero page styles -->
-        </div>
       </div> <!-- contents of landing page -->
     </section> <!--end of section-->
 
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="columns is-vcentered">
-          <div class="column is-5">
-            {{-- <figure class="image is-4by3">
-              <img src="http://placehold.it/800x600" alt="Description">
-            </figure> --}}
-          </div>
-          <div class="column is-6 is-offset-1 has-text-right p-r-100">
-            <h1 class="title is-2">
-              Superhero Scaffolding
+
+          <div class="column is-8 is-offset-1 has-text-left p-r-100">
+            <h1 class="title is-2 has-text-left">
+              Our approach
             </h1>
-            <h2 class="subtitle is-4 m-t-20">
+            <hr>
+          <div class="is-offset-3 p-l-50 m-t-20">
+            <h2 class="subtitle is-4 m-t-20 has-text-left">
               Lorem ipsum dolor sit amet,
             </h2>
             <p class="lead ">
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <br>
-            <p class="has-text-right has-text-weight-light">
-              <a  href="" class="is-medium is-info is-outlined">
-                DISCOVER MORE
-              </a>
-            </p>
+          <a href="">
+            <div data-wipe="DISCOVER MORE" class="has-text-weight-light">
+              <span class="btn">DISCOVER MORE</span>
+            </div>
+          </a>
           </div>
+        </div>
+
+          <div class="column is-3">
+            <figure class="image is-4by3">
+              <img src="/img/pic_4.png" alt="Description">
+            </figure>
+          </div>
+
         </div>
       </div>
     </div><!--end of hero-body-->
