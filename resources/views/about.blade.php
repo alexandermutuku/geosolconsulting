@@ -16,6 +16,7 @@
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head> <!-- end of the header-->
     <body>
+
     <section class="hero is-transparent is-fullheight">
 
       @include('_includes.nav.main') <!--includes the main navigation -->
@@ -279,6 +280,6 @@
     }
 </script>
 
-  <script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
 
 </html>

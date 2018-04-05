@@ -2,7 +2,6 @@
 <!-- Scripts -->
 <script src="{{ asset('/js/app.js') }}"></script>
 
-
 <footer class="footer">
 	<div class="container">
 		<div class="columns">
@@ -21,6 +20,10 @@
 			</div>
 		</div>
 				<hr>
+		<div class='scrolltop'>
+				<div class='scroll'><i class="fa fa-4x fa-angle-up"></i></div>
+		</div> <!--Scroll to top icon -->
+
 		<div class="columns is-size-6">
 			<div class="column has-text-left has-text-weight-light">
 				<p class="">Geosol Consulting</p>
@@ -30,4 +33,5 @@
 			</div>
 		</div>
 	</div>
+
 </footer><!--end of footer -->

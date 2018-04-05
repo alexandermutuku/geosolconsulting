@@ -145,6 +145,9 @@
         </article>
       </div>
 
+
+
+
       <div class="tile is-vertical is-parent">
         <article class="tile is-child blue post">
           <a class="post__category" href="">trends</a>
@@ -231,6 +234,14 @@
     </div>
 
   </div>
+
+  <a href="#" id="loadMore"><i class='fa fa-plus'></i></a>
+  <p class="totop">
+      <a href="#top">Back to top</a>
+  </p>
+
+
+
   <!-- /container -->
 </section>
 

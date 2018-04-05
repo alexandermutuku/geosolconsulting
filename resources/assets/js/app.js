@@ -18,7 +18,7 @@ Vue.use(Buefy);
 
 // import UIkit from 'uikit';
 // import Icons from 'uikit/dist/js/uikit-icons';
-import jQuery from 'jquery';
+import jquery from 'jquery';
 // import App from './App';
 
 

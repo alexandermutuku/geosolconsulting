@@ -254,7 +254,7 @@ a:hover, .uk-link:hover {
 
 .footer {
     background-color: white !important;
-    padding: 3rem 1.5rem 6rem;
+    padding: 3rem 0.1rem 4rem 3rem !important;
 }
 
 @media screen and (min-width: 0px)
@@ -481,4 +481,98 @@ a:hover, .uk-link:hover {
     overflow: hidden;
     margin-bottom: 0!important;
     transition: max-height 0.2s ease-in-out;
+}
+
+/* scroll to top buttom*/
+
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;
+}
+.scroll {
+	position:absolute;
+	left:30px;
+	bottom:20px;
+	background:#b2b2b2;
+	background:rgba(178,178,178,0.7);
+	padding:10px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.scroll:hover {
+	background:rgba(178,178,178,.9);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+
+/* load more */
+.totop {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+.totop a {
+    display: none;
+}
+a, a:visited {
+    color: #33739E;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+a:hover {
+    text-decoration: none;
+}
+#loadMore {
+    /* padding: 10px;
+    text-align: center; */
+    /* background-color: #33739E; */
+
+
+    margin:0 5px 0 0;
+    cursor:pointer;
+    border:1px solid black;
+    height:40px;
+    width:40px ;
+    content: '\f067';
+    border-radius: 75px;
+    -moz-border-radius:75px;
+    -webkit-border-radius:75px;
+
+    /* color: #fff;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0 1px 1px #ccc; */
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+#loadMore:hover {
+    background-color: #fff;
+    color: #33739E;
 }

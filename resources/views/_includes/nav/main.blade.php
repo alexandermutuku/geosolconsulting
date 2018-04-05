@@ -5,7 +5,7 @@
           {{-- <a href=""><img src="/img/logo.jpg" alt="LOGO" width="112" height="112"></a> --}}
       </div> <!--end navbar brand is hidden -->
 
-    <div class="container is-fullscreen m-t-30">
+    <div class="container is-fullscreen m-t-30 thetop">
           <navbar-item class="vertical m-l-100 m-t-10">
             <ul>
               <li><a href="/">HOME</a></li>
@@ -42,7 +42,7 @@
       <hr>
       <div class="columns">
         <div class="column has-text-weight-light">
-          <a href="{{route('contact')}}"> Contact</a>   |   <a href="">Careers</a>   |   <a href=""> Terms</a>
+          <a href="{{route('contact')}}"> Contact</a><a href="">Careers</a><a href=""> Terms</a>
         </div>
         <div class="column has-text-right has-text-weight-light">
           <p>Copyright © 2018 Geosol Consulting</p>
@@ -50,7 +50,6 @@
       </div>
     </div>
   </div>
-
 
 
   <div class="navbar-menu navbar-end">
@@ -63,5 +62,4 @@
   				<span></span>
   		</div>
   </div><!--end burger visible on all devicec-->
-
 </nav> <!--end navbar -->

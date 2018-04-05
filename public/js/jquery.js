@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
 
 // Get all "navbar-burger" elements
@@ -49,8 +50,52 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
+//active tabs need repair jquery
+// $(".sexytabs").tabs({
+//   show: { effect: "slide", direction: "left", duration: 200, easing: "easeOutBack" } ,
+//   hide: { effect: "slide", direction: "right", duration: 200, easing: "easeInQuad" }
+// });
 
-$(".sexytabs").tabs({
-  show: { effect: "slide", direction: "left", duration: 200, easing: "easeOutBack" } ,
-  hide: { effect: "slide", direction: "right", duration: 200, easing: "easeInQuad" }
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 50 ) {
+        $('.scrolltop:hidden').stop(true, true).fadeIn();
+    } else {
+        $('.scrolltop').stop(true, true).fadeOut();
+    }
+});
+$(function(){$(".scroll").click(function(){
+							$("html,body").animate({scrollTop:
+							$(".thetop").offset().top},"1000");
+return false})})
+
+
+//load more
+$(function () {
+    $("div").slice(0, 8).addClass('display');
+    $("#loadMore").on('click', function (e) {
+        e.preventDefault();
+        $("div:hidden").slice(0, 8).addClass('display');
+        if ($("div:hidden").length == 0) {
+            $("#load").fadeOut('slow');
+        }
+        $('html,body').animate({
+            scrollTop: $(this).offset().top
+        }, 1500);
+    });
+});
+
+$('a[href=#top]').click(function () {
+    $('body,html').animate({
+        scrollTop: 0
+    }, 600);
+    return false;
+});
+
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+        $('.totop a').fadeIn();
+    } else {
+        $('.totop a').fadeOut();
+    }
 });
